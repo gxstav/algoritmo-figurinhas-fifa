@@ -4,6 +4,8 @@ Criado durante o período da Copa do Mundo FIFA Qatar 2022 para facilitar a comp
 ## Como usar?
 Coloque nos arquivos de texto correspondentes a lista das figurinhas e execute o comando `node [arquivo].js`
 
+Use o padrão `[SIGLA]: [LISTA]` dentro dos arquivos de texto. Exemplo: `BRA: 1,2,5,7`
+
 ## Modo Compra
 Coloque no arquivo `faltantes.txt` a sua lista de figurinhas faltantes. <br>
 Coloque no arquivo `compra\disponiveis.txt` a lista de figurinhas que a pessoa tem disponível para venda. <br>
