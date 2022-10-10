@@ -1,0 +1,13 @@
+{
+  "name": "algoritmo-figurinhas-fifa",
+  "version": "1.0.0",
+  "main": "main.js",
+  "repository": "https://github.com/gxstav/algoritmo-figurinhas-fifa.git",
+  "author": "gxstav <gustavoscbarcelos@gmail.com>",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "comprar": "node .\\src\\comprar.js",
+    "trocar": "node .\\src\\trocar.js"
+    }
+}

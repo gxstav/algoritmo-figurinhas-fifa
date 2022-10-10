@@ -1,0 +1,33 @@
+FWC:
+QAT: 4
+ECU: 18
+SEN:
+NED:
+ENG:
+IRN:
+USA:
+WAL:
+ARG:
+KSA:
+MEX:
+POL: 10, 17
+FRA:
+AUS: 4, 11
+DEN: 9, 15, 20
+TUN:
+ESP:
+CRC:
+GER:
+JPN:
+BEL: 18
+CAN: 19
+MAR: 3
+CRO:
+BRA: 8
+SRB:
+SUI:
+CMR: 8, 9
+POR: 10, 17
+GHA: 1
+URU:
+KOR: 1

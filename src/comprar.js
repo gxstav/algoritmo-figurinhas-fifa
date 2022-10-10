@@ -1,4 +1,4 @@
-const {readFileSync, promises: fsPromises} = require('fs');
+import { readFileSync } from 'fs';
 
 const selecionarDisponiveis = function (faltantes, disponiveis) {
     let quantidade = 0;
@@ -17,10 +17,11 @@ const selecionarDisponiveis = function (faltantes, disponiveis) {
     }
     console.log('Lista das selecionadas: ', selecionadas)
     console.log(`${quantidade} figurinhas encontradas -- R$ ${quantidade * 0.80}`)
+    return selecionadas;
 }
 
 const converterLista = function (arquivo) {
-    const conteudo = readFileSync(`.\\${arquivo}`, 'utf-8');
+    const conteudo = readFileSync(`.\\src\\${arquivo}.txt`, 'utf-8');
     const linhas = conteudo.split(/\r?\n/);
     let listaConvertida = {};
     for (const linha of linhas) {
@@ -31,9 +32,8 @@ const converterLista = function (arquivo) {
     return listaConvertida;
 }
 
-const faltantes = converterLista('faltantes.txt')
-
-const disponiveis = converterLista('comprar\\disponiveis.txt')
+const faltantes = converterLista('minhas-faltantes')
+const disponiveis = converterLista('comprar\\disponiveis')
 
 selecionarDisponiveis(faltantes, disponiveis)
 
