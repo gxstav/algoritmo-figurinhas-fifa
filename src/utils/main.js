@@ -5,8 +5,9 @@ function converterLista (arquivo) {
     let listaConvertida = {};
     for (const linha of linhas) {
         const [time, figurinhas] = linha.split(':')
-        const _figurinhas = figurinhas.replace(/ /g, '').split(',')
-        listaConvertida[time] = _figurinhas.map(figurinha => Number(figurinha))
+        const convertidas = figurinhas.replace(/ /g, '').split(',')
+        const tratadas = convertidas.map(figurinha => Number(figurinha))
+        listaConvertida[time] = tratadas.length && tratadas[0] === 0 ? [] : tratadas
     }
     return listaConvertida;
 };
