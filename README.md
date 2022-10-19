@@ -17,3 +17,7 @@ Coloque no arquivo `src/minhas-disponiveis.txt` a sua lista de figurinhas repeti
 Coloque no arquivo `src/trocar/faltantes.txt` a lista de figurinhas faltantes que a pessoa precisa. <br>
 Coloque no arquivo `src/trocar/disponiveis.txt` a lista de figurinhas repetidas que a pessoa tem. <br>
 Rode no terminal o comando `yarn trocar` para receber a lista das figurinhas selecionadas para você trocar.
+
+## Modo Contar
+Coloque no arquivo `src/minhas-faltantes.txt` a sua lista de figurinhas faltantes. <br>
+Rode no terminal o comando `yarn contar` para receber a lista das figurinhas que faltam organizadas por time, a quantidade total de figurinhas faltantes, o time que menos faltam figurinhas e o time que mais faltam figurinhas.
