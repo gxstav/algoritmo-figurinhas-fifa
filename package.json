@@ -6,7 +6,8 @@
   "author": "gxstav <gustavoscbarcelos@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "comprar": "node ./src/comprar.js",
-    "trocar": "node ./src/trocar.js"
+    "comprar": "node ./src/js/comprar.js",
+    "trocar": "node ./src/js/trocar.js",
+    "contar": "node ./src/js/contar-faltantes.js"
     }
 }

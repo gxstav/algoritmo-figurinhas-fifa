@@ -1,6 +1,6 @@
 const { readFileSync } = require('fs');
 function converterLista (arquivo) {
-    const conteudo = readFileSync(`.\\src\\${arquivo}.txt`, 'utf-8');
+    const conteudo = readFileSync(`./src/${arquivo}.txt`, 'utf-8');
     const linhas = conteudo.split(/\r?\n/);
     let listaConvertida = {};
     for (const linha of linhas) {

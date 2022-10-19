@@ -1,6 +1,6 @@
 FWC:
 QAT: 4
-ECU: 18
+ECU: 16, 18
 SEN:
 NED:
 ENG:
@@ -9,9 +9,9 @@ USA:
 WAL:
 ARG:
 KSA:
-MEX:
+MEX: 13
 POL: 10, 17
-FRA:
+FRA: 17
 AUS: 4, 11
 DEN: 9, 15, 20
 TUN:
@@ -25,7 +25,7 @@ MAR: 3
 CRO:
 BRA: 8
 SRB:
-SUI:
+SUI: 3, 15
 CMR: 8, 9
 POR: 10, 17
 GHA: 1

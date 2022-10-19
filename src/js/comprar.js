@@ -1,4 +1,4 @@
-const { converterLista } = require('./utils/main.js')
+const { converterLista } = require('../utils/main.js')
 
 const faltantes = converterLista('minhas-faltantes')
 const disponiveis = converterLista('comprar/disponiveis')
