@@ -11,7 +11,7 @@ const contarFaltantes = function () {
         quantidadeTotal += quantidade        
     }
     const faltantesQtd = Object.values(selecionadas);
-    const menorFaltante = Math.min(...faltantesQtd);
+    const menorFaltante = Math.min(...faltantesQtd.filter(Boolean));
     const maiorFaltante = Math.max(...faltantesQtd);
     const times = Object.keys(selecionadas)
     let index = faltantesQtd.indexOf(menorFaltante);
