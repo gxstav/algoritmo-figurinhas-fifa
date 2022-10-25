@@ -1,33 +1,33 @@
-FWC:
-QAT: 4
-ECU: 16, 18
-SEN:
-NED:
-ENG:
-IRN:
-USA:
-WAL:
-ARG:
-KSA:
-MEX: 13
-POL: 10, 17
-FRA: 17
-AUS: 4, 11
-DEN: 9, 15, 20
-TUN:
-ESP:
-CRC:
-GER:
-JPN:
-BEL: 18
+FWC: 25
+QAT: 2, 4, 6, 11, 13
+ECU: 3, 16, 18
+SEN: 15, 17, 20
+NED: 5, 13, 18, 20
+ENG: 8, 12, 17
+IRN: 2, 5
+USA: 17, 18
+WAL: 9
+ARG: 1, 9, 10
+KSA: 1, 6, 11
+MEX: 2, 13, 14, 16, 17
+POL: 10, 17, 20
+FRA: 12, 13, 17
+AUS: 4, 7, 11
+DEN: 9, 15, 19, 20
+TUN: 15, 16
+ESP: 1, 9, 10, 13
+CRC: 6, 8, 20
+GER: 4
+JPN: 5, 16
+BEL: 2, 9, 18, 20
 CAN: 19
-MAR: 3
-CRO:
-BRA: 8
-SRB:
-SUI: 3, 15
+MAR: 3, 15
+CRO: 9, 14
+BRA: 5, 8
+SRB: 11
+SUI: 3, 9, 15, 17
 CMR: 8, 9
 POR: 10, 17
-GHA: 1
-URU:
-KOR: 1
+GHA: 1, 18
+URU: 18, 19
+KOR: 1, 5, 16
